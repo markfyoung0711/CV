@@ -1,0 +1,189 @@
+Mark Young
++1 903-360-8815 | mark.francis.young@gmail.com | Lindale, TX 75771
+
+================================================================================
+WORK EXPERIENCE
+================================================================================
+
+J:Senior Software Engineer|Blizzard Entertainment/Microsoft|August 2024 - Present
+
+- Refactor typescript infrastructure for game publishing. Train SDETs how code can be compartmentalized for better organization.
+- Integrate trace_id tracing between smoke tests and game publishing TACT API.
+- Learn playwright and TestRail for debugging SDET test implementation issues.
+- Used CoPilot in VS Code to locate and refactor 170 tests for TraceID injection in order to query critical log messages from Grafana and Loki.
+- Design and distribute auto-heal container to monitor celery worker containers health. Reduce dependency on celery tasks. Skills: celery, rabbitmq, asyncio, threads, queues.
+- Development and hardening of APIs: worked on providing authorities that span all game products, regression tested and walked users through how to transition to new security features. Tools: Flask, pytest, lcov, python, md5, hashlib, http.server, OAuth, Wireshark, Google Dev Tools, GCP, gitcrypt, gpg AES256 encryption, Jenkins declarative, and groovy for CI integration, gitleaks, trivy, bandit, pylint, Complex SQL Queries using SqlAlchemy ORM (1 year), DevOps (1 year) - see docker/kubernetes/JFrog/GCP
+- Requirements gathering - responsible for translating JIRA descriptions (vague) into detailed approach to development and automated unit testing. Also, wrote QA specifications for independent QA team and taught SDETs how to automate e2e use-case tests.
+- Splunk API for token usage query and TACT API usage.
+- Celery integration with docker containers for nginx, TACT API server, DB and other container images.
+- Maintenance of base game publishing docker images. (1 year)
+- Kubernetes helm charts work related to secret management with GCP Secret Manager. (< 1 year)
+- CodeQL database setup for python code analysis to find security vulnerabilities. CoPilot integration and usage in VS Code for writing documentation, explaining code, proposing solutions (1 year). UV and RUFF implementation to improve dependency analysis and quality of python code. (1 year)
+- Certificate Authority cleanup - revamped expired CAs and used newly-minted ones from external CA. Skills: docker compose and build.
+- Defined algorithm for defining cyclic graph tests on inter-related security OAuth scopes.
+- CI - expanded integrated testing by revamping part of the system developed by SDETs. Skills: pytest, Jenkins, groovy, python, coverage, lcov. Integrated mypy, ruff into CI (1 year)
+- Git worktrees: used these to track upstream and origin to both development and production code bases for quick/easy deployments of PRs for review.
+- C++ - revising the Battle.net pipeline3 code for delivering game content. Revisions are for specific game teams to customize their own pipeline file-fetching protocols. Skills: C++, std library (string, vector, threads), python 2 to python 3 conversion of buffered reads and threading libraries. Debugged thread locking mechanisms and repaired them by setting up and managing locks for shared resources.
+- Knowledge of and experience working with ServiceNow.
+- Artifactory (JFrog) added for file sharing for secrets and other test or development-centered artifacts.
+- Deployment of kubernetes pods using ArgoCD. Google Cloud API, kubectl.
+- Debugged AWS S3 encoding issues for all game CDN S3 endpoints. Participated in code reviews of AWS S3 code units, suggested unit tests, found bugs in code. (1 year)
+
+Skills: docker - 1 year, kubernetes, kubectl, Helm charts - <1 year, Flask/python/sqlalchemy and REST API Development - 1 year, CI/CD - 1 year, GitHub Actions - 1 Year
+
+
+J:Senior Software Engineer|Buckstop Labs|July 2023 - August 2024
+
+Technology Summary (additional 1 year experience): Tableau BI, Rocket BI, airbyte, PostgreSQL, python, pandas, pytest, jupyter notebooks, Google Cloud Platform, Vertex AI, Google App Engine, gcloud CLI, Google, scikit-learn (sklearn), github, github actions, javascript, React and Javascript, CSS, HTML, node.js, selenium, docker, anaconda (conda), oauth libraries - All additional 1 year of experience.
+
+AWS Tech: AWS Lambda, AWS IAM, AWS API Gateway, API DynamoDB, AWS Cloud9 (1 Year)
+
+Projects:
+1. Selenium automation of historical, daily oil gas records downloads. Automated all unit tests using pytest.
+2. ANTLR4 - parsing Cobol copybooks to extract python structs from EBCDIC files.
+3. Django - for REST API development. Django ORM, SwaggerHub API development. Django was used with ORM capabilities with Python classes developed for Student assignments to Classes. APIs for querying students, classes and assignment relationships between the two.
+4. Virtualized runtime using GCP App Engines used for deployment of North Dakota Oil Gas parsing application for funneling into BigQuery (on GCP) for detecting anomalies in daily oil/gas production reporting. Distribution using Docker containerization. Gcloud CLI used for DevOps.
+5. For Portfolio sharing: React and JavaScript, CSS and HTML5 and Bootstrap.
+6. Law Student Success AI/ML modelling using scikit-learn - generated sample student data and provided interface to law school admin for importing sensitive, live student data.
+7. PostgreSQL used to store Salesteam, Sales, Product and Quote data with Tableau, RocketBI and Power BI as the visualization engines. Developed Dashboards using RocketBI and Power BI for customer, Smith System of Dallas, TX. Dashboards reflected a financial scorecard of each business unit at the furniture manufacturer. The scorecard was comprised of various breakdowns of product types, sales regions and also provided margin reporting to highlight performance of product lines. Jupyter notebook used for matplotlib plots of said data. Used OAuth library from Salesforce to connect to Salesforce instance.
+8. Bluebonnet.io - consulting with Odoo development team (gobonum.com) on how to integrate data warehousing solution for furniture manufacturer, integrating current Excel-based solution with Odoo manufacturing and planning modules. Reference: Pepo Pinar, President.
+9. Trained ML models to write better python code. Found many errors and helped the models improve efficiency, accuracy, logical organization, and documentation. Compared with CoPilot and ChatGPT solutions. CoPilot, ChatGPT for code - 1 year.
+10. Gained familiarity with AWS Elastic Container Service (docker) and AWS Elastic Kubernetes Service through AWS training courses offered by Amazon.
+11. Couchbase Capella investigated for a client's needs in the area of sales support system. Developing CRUD APIs using OpenAPI standards/tools.
+12. CLI Google Email filter creation tool. Uses Google OAuth for gmail server access.
+
+
+J:Senior Software Engineer|Jump Trading|May 2013 - July 2023
+
+Instrument Warehouse Data Quality Improvements (5 years)
+- Created instrument master warehouses for futures, options, equities, cryptos, currencies and bonds
+- Reduced trading errors by 10% for all trading teams by improving integrity checks
+- Managed operation of data acquisition and warehouse pipelines for accuracy and timeliness
+- Reconciled differences in data between development and production releases for millions of data points
+- Retired legacy system while simultaneously providing backward compatibility
+- React.js used to build symbol GUI for investigating details for various types of financial instruments (1 year)
+- Django/Swagger used for instrument query APIs for retrieval by instrument type, symbol ticker, exchange and unique symbol identifier (2 years)
+- Jenkins CI/CD - developed groovy code to automate workflow and integration of changes in github with deployment via whl files - CI/CD 5 years.
+- Provided training to data scientists and quantitative researchers for using instrument financial data APIs and understanding the detailed lifecycles of all financial instruments
+- Jupyter notebooks used for conceptualization, debugging, and training. - 5 years.
+
+Improved Overall System Quality (10 years)
+- Instituted DevOps for entire DB and market data product line using docker, wheels, Alembic, (all 3 yrs) and kubernetes (< 1 year)
+- Improved mean time to critical failures from 3 days (May 2013) to 1 year (by December 2013)
+- Managed team of DBAs, taught git, Agile methods, SDLC, and python
+- Improved to expert level in SQL and python - 10 years.
+- Introduced automated testing to DBA Developers, used pytest calling stored procedures via sqlalchemy and checking against expected results encoded in pytest .py files
+- Personally contributed to SQL stored procedure code base for over 200 projects
+- Significant portion of system was run with AWS S3 as backing store for DB backups/logs - 2 years
+- For SQL DB server connectivity, implemented OAuth2 protocol in Python with oauth library
+- OLAP, OLTP, MS SQL Server, Sybase SQL Server (ASE), mysql, Postgres
+
+Jump Crypto Symbols (2 years)
+- Integrated hundreds of crypto coins/pairs for more than 40 DeFi Exchanges
+- Innovated method to create intraday ICO (Initial Crypto Offerings) for trading new coins
+
+Improved Time-To-Market for Critical Data (2 years)
+- Reduced the reference data ETL flow from 3 hours to 3 minutes
+
+Worked with Exchanges/Vendors to Resolve Data Issues (5 years)
+- Managed changes in futures, currency pairs, equities, spreads, e.g. tick sizes, exchange symbols
+- Provided firm-wide support for currency settlement date investigations
+
+Production Support for Asia, Europe, Latin America and North America (5 years)
+- Checked integrity of data, solved issues by contacting providers, overriding bad data and writing formulae to transform data to expected values and formats
+
+Acquired Improved Data Sources (5 years)
+- Partnered with data vendors to acquire new, improved, more timely data formats, e.g. CME
+
+Analyzed Exchange Specifications for New Data Fields (5 years)
+- Studied and implemented new specifications for accurate and improved trading
+
+Provided Risk and Clearing Support (10 years)
+- Partnered with Risk department on construction of risk profiles, margin rates and fungibility strategies
+- Partnered with Clearing department on settlement investigations
+
+Provided Critical Support for 20 Trade Desks (10 years)
+- Provided front-line support for startup issues with close prices, new futures contracts, bonds, etc.
+
+Leadership
+- Led $1.2 million development budgets annually (8-10 direct headcount)
+- My teams met all deadlines on time
+- Communicated results to firm owners and management leadership team
+- Led IT projects for new technologies such as data warehousing, data engineering, governance and provenance, risk assessment and trade clearing
+- Instituted Agile and Scrum to keep focus on deliverables
+- Taught Agile and SDLC best practices to developers and cross-functional stakeholders
+- Tracked projects with JIRA and GIT hub projects
+- Introduced design and code peer reviews to improve quality
+- Identified risks and put into place training, new technology and quality metrics
+- Introduced data warehouses for improved data quality and market intelligence
+- Traveled to North America and Europe offices for kick-offs, training and stakeholder sessions
+- Introduced 24/7 follow-the-sun support systems
+- Worked 12 hour days and weekends when it was necessary to deliver projects
+
+Technology Summary (years): Linux (10), python (10), pandas (10), JIRA, git, groovy, Jenkins, SQLAlchemy (5), mysql (5), SQL (10), Django for REST API Development (3), ORM of sqlalchemy (5), pytest (10), docker (1), anaconda (conda) (1), Complex SQL Queries (10 years)
+
+Methods Summary: JIRA (10), Requirements analysis/gathering (10), automated unit and component testing (10), SQL performance analysis (5)
+
+
+J:Senior Software Engineer|Citadel Investment Group|January 2003 - January 2013
+
+Data Research Speed Improvements (5 years)
+- Managed team of 5 C++ developers in creating tick data warehouses, using C++, JIRA, and git
+- Created and maintained more than 100 tick data warehouses
+
+Analyzed Exchange Specifications (5 years)
+- Analyzed and decoded exchange market data captures for coding new market data parsers
+- Automated 100% of unit tests
+
+Data Quality Improvement (5 years)
+- Instructed quantitative researchers in processing historical data archives
+- Reduced time to market by creating configurable reference data for ETL process
+- Promoted to team lead in high-frequency trading department
+
+Management and Software Quality Assurance (5 years)
+- Managed (5) testers, reviewed test plans, mentored developers in creation of automated tests
+- Designed and executed tests for Event Driven department servers and monitors
+- Reduced compilation time by 10% by improving quality of the C++ technology stack
+
+Technology Summary: C++ (10), STL (10), python (2), perl (5), SQL (10), git, SVN, Google Test, FIX, JIRA, ETL (5), Microsoft Project, cppunit, Automated Testing GUI tool
+
+Data sources/exchanges: US and EU ECNs, Reuters, OPRA, CME, ICE
+
+
+J:Software Engineer / SDET|Exelon|January 2002 - January 2003
+
+Automated Informatica testing for accounting migration for 4 power companies to reduce the amount of manual testing by 80%.
+
+
+J:Senior Software Engineer|TD Waterhouse|May 2000 - January 2002
+
+- Developed handheld trading platform.
+- Tested all Visual Basic code and DB interfaces.
+- Worked with TD Waterhouse trading staff to understand requirements.
+- Tech stack: MS VBA Script, HTML
+
+
+J:Member of Technical Staff|AT&T Bell Labs|August 1996 - May 2000
+
+Created Database Features of Lucent A-I-Net Service Creation Environment
+- Added DB features to finite state machine language, written in C++, C, lex, yacc
+- Created persistence class structure, with static data written via Oracle PL/SQL
+- Trained technical staff in "baby bells" in using Lucent A-I-Net SCE
+- Found bugs and debugged the first C++ compilers created by Bjarne Stroustrup
+- Became team lead for Service Creation Environment development
+
+Created ERP System for Manufacturing AT&T Computer Systems Products
+- Wrote C code for order configuration and factory scheduling of 3B mini-computers
+- Automated all unit tests using cppunit
+
+Technologies: Linux, cppunit, C++, C, PL/1, IBM JCL, Microsoft project, Oracle PL/SQL
+
+EDUCATION: University of St. Francis|Bachelors Science|Computer Science|GPA: 3.63/4
+
+
+SKILL SUMMARY:
+
+Agile Methodologies, AWS, C++, CI/CD, Complex SQL, CoPilot, Couchbase, Data Warehousing, Docker, Flask, GCP, Git,
+HTML/CSS, Huggingface Pipelines, Javascript, Jenkins, kubectl, Kubernetes, OAuth, OLTP, Pandas, Playwright,
+PostgreSQL, Python, React.js, Selenium, SQL, SQLAlchemy, TypeScript, Wireshark
+
