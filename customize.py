@@ -3,14 +3,18 @@
 customize.py — Tailors resume.md to a specific job description using Claude.
 
 Usage:
-    python customize.py --jd path/to/job.txt --company acme
-    uv run customize.py --jd path/to/job.txt --company acme
+    python customize.py --jobname whitpain_pa
+    python customize.py   # no jobname: outputs master resume as-is to resume-general.md
+
+job-index.txt format:  <url> = <job_name>
+  The job name (right of '=') maps to jd-<job_name>.txt in the same directory.
 
 Output: resume-<company>.md in the same directory as this script.
 """
 
 import argparse
 import os
+import subprocess
 import sys
 from pathlib import Path
 
@@ -52,10 +56,10 @@ def load_resume() -> str:
     return resume
 
 
-def load_job_description(path: str) -> str:
-    jd_path = Path(path)
+def load_job_description(job_name: str) -> str:
+    jd_path = Path(__file__).parent / f"jd-{job_name}.txt"
     if not jd_path.exists():
-        print(f"Error: job description file not found: {path}", file=sys.stderr)
+        print(f"Error: job description file not found: {jd_path}", file=sys.stderr)
         sys.exit(1)
     return jd_path.read_text()
 
@@ -82,37 +86,66 @@ def customize_resume(resume: str, job_description: str) -> str:
     return message.content[0].text
 
 
+def convert_to_pdf(md_file: Path) -> Path:
+    pdf_file = md_file.with_suffix(".pdf")
+    subprocess.run(
+        [
+            "pandoc", str(md_file),
+            "-o", str(pdf_file),
+            "--pdf-engine=xelatex",
+            "-V", "geometry:margin=1in",
+            "-V", "fontsize=11pt",
+        ],
+        check=True,
+    )
+    return pdf_file
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Tailor resume.md to a job description using Claude."
     )
     parser.add_argument(
-        "--jd",
-        required=True,
-        metavar="FILE",
-        help="Path to the job description file (.txt or .md)",
+        "--jobname",
+        required=False,
+        default=None,
+        metavar="NAME",
+        help="Job name (right of '=' in job-index.txt), used to find jd-<jobname>.txt and name the output. "
+             "If omitted, outputs the master resume as-is (with personal details).",
     )
     parser.add_argument(
-        "--company",
-        required=True,
-        metavar="NAME",
-        help="Company name used to name the output file (e.g. 'acme' → resume-acme.md)",
+        "--pdf",
+        action="store_true",
+        help="Also convert the output Markdown to PDF using pandoc.",
     )
     args = parser.parse_args()
+
+    resume = load_resume()
+
+    if args.jobname is None:
+        output_file = Path(__file__).parent / "resume-general.md"
+        output_file.write_text(resume)
+        print(f"Written to: {output_file}")
+        if args.pdf:
+            pdf = convert_to_pdf(output_file)
+            print(f"PDF written to: {pdf}")
+        return
 
     if not os.environ.get("ANTHROPIC_API_KEY"):
         print("Error: ANTHROPIC_API_KEY environment variable is not set.", file=sys.stderr)
         sys.exit(1)
 
-    resume = load_resume()
-    job_description = load_job_description(args.jd)
+    job_description = load_job_description(args.jobname.lower().replace(" ", "-"))
 
-    print(f"Customizing resume for: {args.company} ...")
+    print(f"Customizing resume for: {args.jobname} ...")
     tailored = customize_resume(resume, job_description)
 
-    output_file = Path(__file__).parent / f"resume-{args.company.lower().replace(' ', '-')}.md"
+    output_file = Path(__file__).parent / f"resume-{args.jobname.lower().replace(' ', '-')}.md"
     output_file.write_text(tailored)
     print(f"Written to: {output_file}")
+    if args.pdf:
+        pdf = convert_to_pdf(output_file)
+        print(f"PDF written to: {pdf}")
 
 
 if __name__ == "__main__":
