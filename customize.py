@@ -17,6 +17,7 @@ from pathlib import Path
 import anthropic
 
 RESUME_FILE = Path(__file__).parent / "resume.md"
+PERSONAL_FILE = Path(__file__).parent / "personal.md"
 
 SYSTEM_PROMPT = """\
 You are an expert technical resume writer. You will be given a master resume and a job description.
@@ -34,11 +35,21 @@ Return only the tailored resume — no preamble, no commentary.
 """
 
 
+def load_personal() -> str:
+    if not PERSONAL_FILE.exists():
+        return ""
+    return PERSONAL_FILE.read_text().strip()
+
+
 def load_resume() -> str:
     if not RESUME_FILE.exists():
         print(f"Error: resume file not found at {RESUME_FILE}", file=sys.stderr)
         sys.exit(1)
-    return RESUME_FILE.read_text()
+    personal = load_personal()
+    resume = RESUME_FILE.read_text()
+    if personal:
+        return f"{personal}\n\n---\n\n{resume}"
+    return resume
 
 
 def load_job_description(path: str) -> str:

@@ -11,6 +11,7 @@ Seeking a software engineering role where LLMs and intelligent agents are core t
 ### Senior Software Engineer — Blizzard Entertainment / Microsoft
 **August 2024 – Present**
 
+- Leading development team in model-first principles such as agent creation, Ralph Wiggums loop, planning and implementation.
 - Refactored TypeScript infrastructure for game publishing; trained SDETs on code compartmentalization.
 - Integrated `trace_id` tracing between smoke tests and game publishing TACT API.
 - Used CoPilot in VS Code to locate and refactor 170 tests for TraceID injection to enable Grafana/Loki log queries.
@@ -39,7 +40,10 @@ Seeking a software engineering role where LLMs and intelligent agents are core t
 ### Senior Software Engineer — Buckstop Labs
 **July 2023 – August 2024**
 
-- **Tech stack:** Tableau BI, Rocket BI, Airbyte, PostgreSQL, Python, Pandas, pytest, Jupyter, GCP, Vertex AI, Google App Engine, gcloud CLI, scikit-learn, GitHub Actions, JavaScript, React, CSS, HTML, Node.js, Selenium, Docker, Anaconda, OAuth libraries.
+Portfolio: https://github.com/markfyoung0711/myfsm
+
+- Developed entirely using Agentic methods an FSM language representation for Python and Rust runtimes.
+- **Tech stack:** Claude (Anthropic API), Tableau BI, Rocket BI, Airbyte, PostgreSQL, Python, Pandas, pytest, Jupyter, GCP, Vertex AI, Google App Engine, gcloud CLI, scikit-learn, GitHub Actions, JavaScript, React, CSS, HTML, Node.js, Selenium, Docker, Anaconda, OAuth libraries.
 - **AWS:** Lambda, IAM, API Gateway, DynamoDB, Cloud9.
 - Selenium automation of historical daily oil/gas records downloads with full pytest coverage.
 - ANTLR4 parsing of COBOL copybooks to extract Python structs from EBCDIC files.
