@@ -14,7 +14,6 @@ Output: resume-<company>.md in the same directory as this script.
 
 import argparse
 import os
-import subprocess
 import sys
 from pathlib import Path
 
@@ -52,7 +51,18 @@ def load_resume() -> str:
     personal = load_personal()
     resume = RESUME_FILE.read_text()
     if personal:
-        return f"{personal}\n\n---\n\n{resume}"
+        # Strip the "# Personal Contact Information" heading, keep just the contact lines
+        lines = personal.splitlines()
+        contact_lines = [l for l in lines if not l.startswith("# ")]
+        contact_block = "\n".join(contact_lines).strip()
+        # Insert contact block after the first heading line in the resume
+        resume_lines = resume.splitlines(keepends=True)
+        for i, line in enumerate(resume_lines):
+            if line.startswith("# "):
+                insert_at = i + 1
+                resume_lines.insert(insert_at, f"\n{contact_block}\n")
+                break
+        return "".join(resume_lines)
     return resume
 
 
@@ -86,21 +96,6 @@ def customize_resume(resume: str, job_description: str) -> str:
     return message.content[0].text
 
 
-def convert_to_pdf(md_file: Path) -> Path:
-    pdf_file = md_file.with_suffix(".pdf")
-    subprocess.run(
-        [
-            "pandoc", str(md_file),
-            "-o", str(pdf_file),
-            "--pdf-engine=xelatex",
-            "-V", "geometry:margin=1in",
-            "-V", "fontsize=11pt",
-        ],
-        check=True,
-    )
-    return pdf_file
-
-
 def main():
     parser = argparse.ArgumentParser(
         description="Tailor resume.md to a job description using Claude."
@@ -113,11 +108,6 @@ def main():
         help="Job name (right of '=' in job-index.txt), used to find jd-<jobname>.txt and name the output. "
              "If omitted, outputs the master resume as-is (with personal details).",
     )
-    parser.add_argument(
-        "--pdf",
-        action="store_true",
-        help="Also convert the output Markdown to PDF using pandoc.",
-    )
     args = parser.parse_args()
 
     resume = load_resume()
@@ -126,9 +116,6 @@ def main():
         output_file = Path(__file__).parent / "resume-general.md"
         output_file.write_text(resume)
         print(f"Written to: {output_file}")
-        if args.pdf:
-            pdf = convert_to_pdf(output_file)
-            print(f"PDF written to: {pdf}")
         return
 
     if not os.environ.get("ANTHROPIC_API_KEY"):
@@ -143,9 +130,6 @@ def main():
     output_file = Path(__file__).parent / f"resume-{args.jobname.lower().replace(' ', '-')}.md"
     output_file.write_text(tailored)
     print(f"Written to: {output_file}")
-    if args.pdf:
-        pdf = convert_to_pdf(output_file)
-        print(f"PDF written to: {pdf}")
 
 
 if __name__ == "__main__":

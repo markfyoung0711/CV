@@ -1,0 +1,37 @@
+Our Healthcare Insurance Client is looking to hire a Principal Software Engineer - Generative AI. This position is remote work from home and will convert to an FTE position after 1 year. Annual salary upon conversion to FTE will be $215-260K.
+
+We are seeking a Principal Software Engineer to lead the design and delivery of enterprise-scale Generative AI solutions that power next-generation healthcare experiences. This role goes beyond hands-on coding—you will define technical strategy, establish architectural standards, and guide multiple teams in building secure, scalable, and cost-effective AI platforms across AWS (Bedrock) and Google Cloud (Vertex AI API). You will partner with product, security, compliance, and enterprise architecture teams to ensure solutions meet business objectives, regulatory requirements, and performance goals.
+
+The ideal candidate combines deep technical expertise with leadership skills—capable of influencing cross-org architecture decisions, mentoring engineering teams, and driving responsible AI practices in production.
+Key Responsibilities
+• Lead end-to-end platform delivery of highly scalable, secure AI services and applications leveraging AWS Bedrock (Foundation Models, Knowledge Bases, Agents, Guardrails) and Google Cloud Vertex AI (Gemini via Vertex AI API, Agent Builder, Vector Search, Search & Grounding).
+• Architect and implement Retrieval-Augmented Generation (RAG) solutions, integrating proprietary data from sources like Amazon S3 and Google Cloud Storage/BigQuery, and using Bedrock Knowledge Bases and/or Vertex AI Search & Grounding with Vector Search to improve relevance and accuracy.
+• Design solutions that use function/tool calling and multimodal input processing across both platforms (e.g., Bedrock Converse API and Vertex AI API), and integrate with enterprise systems via secure, well-governed service interfaces.
+• Define reference architectures, golden paths, and guardrails for multi-cloud AI development; drive adoption through design reviews, Architecture Decision Records (ADRs), and clear SLOs for latency, resiliency, safety, and cost.
+• Champion Responsible AI: implement safety filters, policy-enforced guardrails, data minimization, and red-teaming playbooks using capabilities such as Bedrock Guardrails and Vertex AI Safety.
+• Partner with Security, Privacy, and Legal to ensure compliance with HIPAA/PHI, encryption, access control, and continuous auditability.
+• Build evaluation and observability frameworks (groundedness, hallucination rates, relevance, toxicity, drift, cost attribution, A/B testing) and drive FinOps practices (prompt optimization, caching, batching, model selection) across clouds.
+• Mentor Staff/Senior Engineers, elevate coding and design standards, and foster a culture of learning (design clinics, brown bags, communities of practice).
+• Monitor the rapidly evolving AI landscape (LLMs, agent frameworks, platform features) and translate advances into actionable platform strategy and roadmaps.
+
+We are a company committed to creating diverse and inclusive environments where people can bring their full, authentic selves to work every day. We are an equal opportunity/affirmative action employer that believes everyone matters. Qualified candidates will receive consideration for employment regardless of their race, color, ethnicity, religion, sex (including pregnancy), sexual orientation, gender identity and expression, marital status, national origin, ancestry, genetic factors, age, disability, protected veteran status, military or uniformed service member status, or any other status or characteristic protected by applicable laws, regulations, and ordinances. If you need assistance and/or a reasonable accommodation due to a disability during the application or recruiting process, please send a request to HR@insightglobal.com.To learn more about how we collect, keep, and process your private information, please review Insight Global's Workforce Privacy Policy: https://insightglobal.com/workforce-privacy-policy/.
+Required Skills & Experience
+Required Qualifications
+• 10+ years of progressive, hands-on IT experience spanning systems analysis, application design, application development, and leading engineering teams.
+• 7+ years designing and developing modern microservices architectures and cost-effective APIs for enterprise-scale solutions.
+• 7+ years managing stakeholder requirements and translating them into robust, secure, and scalable technical solutions.
+• 5+ years building or leading large-scale, mission-critical applications with a focus on performance, resiliency, and security.
+• 5+ years of hands-on delivery for enterprise cloud initiatives on public cloud platforms (AWS and/or Google Cloud), including architecture, deployment, and optimization.
+• 5+ years implementing DevOps and CI/CD automation, including containerization and orchestration (Kubernetes, Docker)
+• 3+ years of software development with a strong emphasis on Generative AI and Large Language Models (LLMs); familiarity with AI/ML frameworks and libraries (e.g., TensorFlow, PyTorch, Scikit-learn) and productionizing AI systems.
+• Demonstrated ability to influence architecture decisions, lead cross-functional teams, and deliver complex solutions in compliance-conscious environments.
+Preferred Qualifications
+• Hands-on experience with AWS Bedrock (Converse API, Agents, Knowledge Bases, Guardrails) and/or Google Cloud Vertex AI (Vertex AI API for Gemini, Agent Builder, Vector Search, Search & Grounding, Model Garden).
+• Expertise in RAG architectures, including embeddings, chunking, retrieval/reranking, vector databases, and caching strategies—implemented on Bedrock and/or Vertex AI.
+• Proven track record implementing Responsible AI: safety guardrails, bias/fairness testing, red-teaming, human-in-the-loop workflows, and policy compliance.
+• Strong background in observability and evaluation for AI systems: tracing/telemetry, token/inference cost attribution, A/B testing and offline/online evals (groundedness, hallucination), and drift monitoring.
+• Experience with FinOps for AI workloads (prompt optimization, caching/batching, model selection, distillation/quantization strategies, streaming).
+• Familiarity with infrastructure as code and platform engineering (e.g., Terraform, CDK, GitOps) and event-driven architectures.
+• Background in regulated industries (e.g., healthcare) and working knowledge of HIPAA/PHI, data governance, encryption, and access control.
+• Multi-cloud awareness (e.g., Azure OpenAI) and vendor/model evaluation frameworks.
+• Relevant certifications such as AWS Solutions Architect – Professional, AWS Machine Learning – Specialty, AWS Certified AI Practitioner, Google Cloud Professional Cloud Architect, or Google Cloud ML Engineer.
