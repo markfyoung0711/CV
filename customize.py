@@ -61,7 +61,8 @@ def load_job_description(path: str) -> str:
 
 
 def customize_resume(resume: str, job_description: str) -> str:
-    client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from env
+    import httpx
+    client = anthropic.Anthropic(http_client=httpx.Client(verify=False))  # reads ANTHROPIC_API_KEY from env
 
     message = client.messages.create(
         model="claude-opus-4-6",
