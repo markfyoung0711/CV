@@ -15,6 +15,7 @@ Output: resume-<company>.md in the same directory as this script.
 import argparse
 import os
 import sys
+import time
 from pathlib import Path
 
 import anthropic
@@ -78,22 +79,30 @@ def customize_resume(resume: str, job_description: str) -> str:
     import httpx
     client = anthropic.Anthropic(http_client=httpx.Client(verify=False))  # reads ANTHROPIC_API_KEY from env
 
-    message = client.messages.create(
-        model="claude-opus-4-6",
-        max_tokens=4096,
-        system=SYSTEM_PROMPT,
-        messages=[
-            {
-                "role": "user",
-                "content": (
-                    f"## Master Resume\n\n{resume}\n\n"
-                    f"## Job Description\n\n{job_description}"
-                ),
-            }
-        ],
-    )
-
-    return message.content[0].text
+    for attempt in range(4):
+        try:
+            message = client.messages.create(
+                model="claude-opus-4-6",
+                max_tokens=4096,
+                system=SYSTEM_PROMPT,
+                messages=[
+                    {
+                        "role": "user",
+                        "content": (
+                            f"## Master Resume\n\n{resume}\n\n"
+                            f"## Job Description\n\n{job_description}"
+                        ),
+                    }
+                ],
+            )
+            return message.content[0].text
+        except anthropic.APIStatusError as e:
+            if e.status_code == 529 and attempt < 3:
+                wait = 2 ** attempt * 5  # 5s, 10s, 20s
+                print(f"API overloaded, retrying in {wait}s (attempt {attempt + 1}/3)...")
+                time.sleep(wait)
+            else:
+                raise
 
 
 def main():
