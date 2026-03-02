@@ -75,6 +75,7 @@ Portfolio: https://github.com/markfyoung0711/myfsm
 - Jenkins CI/CD with Groovy for GitHub integration and whl-based deployment (5yrs).
 - Trained data scientists and quant researchers on instrument data APIs and financial instrument lifecycles.
 - Jupyter notebooks for conceptualization, debugging, and training (5yrs).
+- Anaconda (Conda) and pip experience for defining and installing packages
 
 **System Quality (10 years)**
 - DevOps for entire DB and market data product line: Docker, wheels, Alembic (3yrs), Kubernetes (<1yr).
