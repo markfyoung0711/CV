@@ -1,0 +1,42 @@
+TITLE: Principal Software Architect- GenAI
+
+WHAT YOU’LL DO:  
+
+The Principal Software Architect - GenAI acts as an architecture leader in a domain area in multiple activities and teams. Responsible for the high-level design/architecture decisions and drives continuous improvement in architecture and engineering across set of software products/services. Additionally responsible for solutioning and planning for the incorporation of generative AI capabilities across the entire Duck Creek Suite. 
+
+Acts as a Domain Architect for the GenAI domain, leading and representing the design/architecture decisions of that domain area 
+Provides architectural and technical leadership, participating and leading with Engineering Communities of Practice 
+Refines technical backlog items and creation of the overall solution concept and architectural direction for multiple engineering teams 
+Provides guidance and support to the developers in multiple engineering teams across our product suite in the completion of stories against design/architecture plans 
+Mentor and help develop engineers and architects in their career growth 
+Drives and coordinates our technical position with key technology vendors 
+Can be hands-on, designing and coding solutions for Agile stories with key architectural impact 
+
+WHAT YOU’VE DONE:  
+
+Bachelor’s or Masters Degree and/or equivalent experience relevant to functional area 
+7+ years of engineering and/or architecture experience 
+5+ years supervisory and strategic leadership experience 
+
+Knowledge, Skills, Abilities & Behaviors
+
+Generative AI Expertise 
+Experienced in creating solutions incorporating Generative AI platforms and tooling into production products. 
+Hands-on experience with LLM integration, RAG pipelines, vector databases, prompt engineering, and hallucination mitigation strategies. 
+Familiarity with fine-tuning and model evaluation techniques for large language models. 
+Programming & Frameworks 
+Strong command of object-oriented programming principles with expert knowledge of Java or C#, and Python. 
+Proficiency with relevant frameworks and libraries such as Spring Boot, .NET Core, TensorFlow, PyTorch, LangChain, Hugging Face Transformers, and OpenAI/Anthropic SDKs. 
+AI/ML Deployment & MLOps 
+Experience in model lifecycle management, including training, deployment, monitoring, and retraining. 
+Skilled in MLOps practices: CI/CD for ML, model versioning, drift detection, and governance. 
+Knowledge of cost optimization strategies for LLMs in production environments. 
+Architecture & Cloud 
+Expert in distributed software patterns (DDD, microservices, serverless, event-driven) and cloud-native architectures (AWS, Azure, GCP). 
+Experience building monitoring, alerting, and observability for maintaining high SLAs in SaaS products. 
+Responsible AI & Compliance 
+Proficient in applying data security, compliance, and responsible AI principles across the solution lifecycle. 
+Leadership & Collaboration 
+Promote inner-sourced tooling and shared technology standards across teams. 
+Leverage AI tools and practices to enhance engineering productivity, decision-making, and innovation. 
+

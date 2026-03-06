@@ -1,0 +1,20 @@
+Responsibilities:
+• Develop and maintain robust data architectures and frameworks, including relational and graph databases, to meet business objectives.
+• Create and manage data pipelines to extract, transform, and load data from various sources into data warehouses.
+• Ensure data governance policies are implemented and monitored, including retention and backup protocols.
+• Collaborate with teams across departments to translate business requirements into technical specifications.
+• Monitor and optimize the performance of data assets, identifying opportunities for improvement.
+• Design scalable and secure data solutions using cloud-based platforms like AWS and Microsoft Azure.
+• Implement advanced tools and technologies, such as AI, to enhance data analytics and processing capabilities.
+• Mentor and support team members by sharing technical expertise and providing guidance.
+• Establish key performance indicators (KPIs) to measure database performance and drive continuous improvement.
+• Stay up to date with emerging trends and advancements in data engineering and architecture.
+Requirements
+• Proven expertise in managing NoSQL and Graph Databases, such as Neo4J, Azure Cosmos, or Apache Gremlin.
+• Strong experience with relational databases and tools like Snowflake and Azure Data Factory.
+• Proficiency in building and maintaining data pipelines using Python, PowerShell, or similar technologies.
+• Solid knowledge of cloud platforms, including AWS and Microsoft Azure, for scalable data solutions.
+• Hands-on experience with Apache Spark, Hadoop, Kafka, and other big data technologies.
+• Familiarity with ETL processes and data analysis methods in an Agile environment.
+• Strong understanding of database architecture principles and modeling techniques.
+• Excellent communication and collaboration skills to work effectively with diverse teams.

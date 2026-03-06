@@ -1,0 +1,16 @@
+Role: Senior Engineer
+Location: Remote
+Contract (W2/1099)
+
+Contract description
+• Develop backend portfolio construction modules to generate custom Fixed Income Sample Portfolios.
+• Upgrade and maintain backend services supporting the Custom Equity Transition Analysis platform.
+• Build and optimize RESTful APIs that interface with internal UIs used by SMA Specialists, CPMs, and WMI partners.
+• Deploy and manage cloud native services using AWS components such as Lambda, S3, EKS, and SQS.
+• Collaborate with Quant and Distribution tech teams to ensure high-performance, reliable, and scalable backend solutions.
+Qualifications
+• Advanced experience in programming in Python, including frameworks for service development.
+• Hands-on experience with Git and Bitbucket Pipelines for CI/CD workflows.
+• Strong background in building RESTful services and integrating APIs with frontend applications.
+• Cloud engineering experience with AWS (Lambda, S3, EKS, SQS) and containerization tools such as Docker, Kubernetes, or Helm.
+• Experience in front office or trading application development, with working knowledge of equity financial concepts or buy-side asset management.

@@ -36,8 +36,34 @@ Seeking a software engineering role where LLMs and intelligent agents are core t
 - Debugged AWS S3 encoding issues for game CDN endpoints; participated in S3 code reviews.
 - Tool development for setting up development environment, secret management, lint checking
 - Live ops support for game teams during production releases of all game updates
-- Wrote developer facing platform tools including game-publishing TACT libraries and tools
 - **Skills summary:** Docker (1yr), Kubernetes/Helm (<1yr), Flask/Python/SQLAlchemy REST API (1yr), CI/CD/GitHub Actions (1yr), VS Code, Github Copilot, Claude, Python SDKs for celery, GCP, sqlalchemy, mysql, flask and many others
+
+---
+
+### Senior Software Engineer — Buckstop Labs
+**July 2023 – August 2024**
+
+Portfolio: https://github.com/markfyoung0711/myfsm
+
+- Developed entirely using Agentic methods an FSM language representation for Python and Rust runtimes.
+- **Tech stack:** Claude (Anthropic API), Tableau BI, Rocket BI, Airbyte, PostgreSQL, Python, Pandas, pytest, Jupyter, GCP, Vertex AI, Google App Engine, gcloud CLI, scikit-learn, GitHub Actions, JavaScript, React, CSS, HTML, Node.js, Selenium, Docker, Anaconda, OAuth libraries.
+- **AWS:** Lambda, IAM, API Gateway, DynamoDB, Cloud9.
+- Selenium automation of historical daily oil/gas records downloads with full pytest coverage.
+- ANTLR4 parsing of COBOL copybooks to extract Python structs from EBCDIC files.
+- Django REST API with ORM: modeled Students, Classes, and Assignments; SwaggerHub API design.
+- GCP App Engine deployment of North Dakota Oil/Gas parsing app, feeding BigQuery anomaly detection. Dockerized; gcloud CLI DevOps.
+- React/JS/CSS/HTML5/Bootstrap portfolio sharing app.
+- Law Student Success ML modeling with scikit-learn; generated sample data; admin interface for importing live data.
+- PostgreSQL + Tableau/RocketBI/Power BI dashboards for Smith System (Dallas, TX): financial scorecard with product, region, and margin breakdowns. Salesforce OAuth integration.
+- Consulting with Odoo dev team (gobonum.com) for integrating data warehousing for furniture manufacturer.
+- Trained ML models to improve Python code quality; compared against Copilot and ChatGPT.
+- AWS ECS and EKS familiarity via Amazon training courses.
+- Couchbase Capella evaluation; CRUD API design using OpenAPI standards.
+- CLI Google Email filter tool using Google OAuth for Gmail access.
+- Snowflake introductory course: data loading and retrieval via `snowflake.snowpark`.
+- AWS Serverless Patterns training project.
+
+---
 
 ### Senior Software Engineer — Jump Trading
 **May 2013 – July 2023**
@@ -54,7 +80,6 @@ Seeking a software engineering role where LLMs and intelligent agents are core t
 - Jupyter notebooks for conceptualization, debugging, and training (5yrs).
 - Anaconda (Conda) and pip experience for defining and installing packages
 - Live ops support for all reference data production issues (10 years)
-- Wrote developer facing APIs for reference data warehouse
 
 **System Quality (10 years)**
 - DevOps for entire DB and market data product line: Docker, wheels, Alembic (3yrs), Kubernetes (<1yr).
@@ -120,8 +145,6 @@ Seeking a software engineering role where LLMs and intelligent agents are core t
 - Designed and executed tests for event-driven department servers and monitors.
 - Reduced C++ compilation time by 10% by improving the technology stack.
 - Live ops trading support for all ticker plant software
-- Wrote developer facing tools for capturing ticker plant data warehouse inputs
-- Worked with external client programmers (management, teaching our software) at TATA in India (5 years)
 - **Tech:** C++ (10yr), STL (10yr), Python (2yr), Perl (5yr), SQL (10yr), Git, SVN, Google Test, FIX, JIRA, ETL (5yr), Microsoft Project, cppunit, Automated Testing GUI.
 - **Data sources:** US and EU ECNs, Reuters, OPRA, CME, ICE
 
@@ -153,8 +176,6 @@ Seeking a software engineering role where LLMs and intelligent agents are core t
 - Found bugs in early C++ compilers created by Bjarne Stroustrup.
 - Became team lead for Service Creation Environment development.
 - Wrote C code for order configuration and factory scheduling of 3B mini-computers; 100% automated unit tests with cppunit.
-- Wrote developer facing tools (compilers) for developers to compile the SLL language into C++
-- Worked with external client programmers (management, teaching our software) at TATA in India (2 years)
 - **Tech:** Linux, cppunit, C++, C, PL/1, IBM JCL, Microsoft Project, Oracle PL/SQL.
 
 ---

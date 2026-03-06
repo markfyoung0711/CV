@@ -1,0 +1,12 @@
+
+Strong full‑stack development experience, particularly with TypeScript/JavaScript, modern frontend frameworks (React, AngularJS, EmberJS), and Python for backend services. Experience designing and implementing API‑based integrations, including REST APIs, webhooks, and event‑driven workflows. Hands‑on experience with CI/CD pipelines and deployment tools (e.g., Jenkins, GitHub Actions, GitLab CI). Practical experience deploying and operating cloud services on platforms such as AWS, Azure, GCP, or OCI. Solid understanding of application architecture fundamentals, including authentication, service‑to‑service communication, and basic data modeling. Ability to collaborate effectively with product, design, and engineering partners to translate needs into working software.
+
+Nice to Have Skills & Experience
+
+Interest or prior experience building internal workplace tools rather than customer‑facing products or traditional enterprise IT systems. Experience integrating with collaboration and communication platforms (e.g., Slack, Zoom) via public APIs. Familiarity with connecting physical workplace systems or IoT to software services. Comfort working in ambiguous, fast‑paced environments with a strong bias toward action and delivery. Strong instinct for simple, maintainable solutions and experience operating in security‑aware engineering environments. Clear, effective communicator across technical and non‑technical stakeholders.
+
+AI ML copilot, Claude
+
+Job Description
+
+We are seeking a Software Engineer that will deliver on a workplace tool/ workflow project. This software engineer will build, integrate, and deploy workplace‑focused software that improves how employees experience collaboration, communication, security, and physical workplace systems. Primary responsibilities of this role will be to partner closely with Workplace Product to understand real employee workflows and friction points, then design simple, pragmatic integrations that solve them. From the environment assessment, the software engineer will develop API‑driven solutions that connect workplace tools, automate workflows, send notifications, and bridge physical systems with digital platforms. This will involve writing hands‑on code across the stack (frontend, backend, integrations), deploy to production, and iterate quickly based on feedback. Additionally, this in an execution‑focused, fast‑moving environment, prioritizing reliable delivery of useful internal tools over large enterprise platforms

@@ -1,0 +1,36 @@
+Job Title: SDET
+ Work Location: Dallas, TX (Onsite)
+
+  SDET profiles with overall 6+ years of experience in Python + SQL for the following requirement
+
+Detailed JD for this requirement:
+
+•         Total Experience of 6+ years
+
+•         4+ Years relevant experience in Python + SQL
+
+•         Hands On experience with test automation frameworks and tools, such as Selenium, TestNG, etc. as well as CI/CD technologies (e.g. Cloud bees, Bitbucket, Jenkins, Cucumber, Git, JUnit, Jira etc.).
+
+•         Hands on Experience in Design, develop , maintain Automation test using Python for Data Validation .
+
+•         Preferred Proficiency in programming language Python
+
+•         Experience with testing modern scripting language-based components.
+
+•         Strong experience with automated testing
+
+•         Hands on with backend test automation using Rest Assured/Karate for API testing
+
+•         Knowledge of Databases and SQL preferred.
+
+•         Experience in writing SQL queries.
+
+•         Experienced in Agile/Waterfall, onsite/offshore work model and coordination.
+
+•         Good to have proficiency in more than one programming language (Java, Python, C#, etc.)
+
+•         Excellent problem-solving skills and attention to detail
+
+•         Excellent written and verbal communication skills
+
+•         Strong teamwork and collaboration skills.

@@ -1,0 +1,34 @@
+Quorum Software connects people and information across the energy value chain. Twenty years ago, we built the first software for gas plant accountants. Pipeline operators came next, followed by land administrators, pumpers, and planners. Since 1998, Quorum has helped thousands of energy workers with business workflows that optimize profitability and growth. Our vision for the future connects the global energy ecosystem through cloud-first software, data standards, and integration. The trusted source of decision-ready data for 1,800+ companies, Quorum Software makes the essential connections that let us work better together in the connected energy workplace. For more information, visit quorumsoftware.com
+
+Quorum Software is the world's largest provider of digital technology focused solely on business workflows that empower the next evolution of energy. From emerging companies to supermajors, throughout every region of the globe, customers rely on Quorum's proven innovation and unmatched global expertise to streamline business operations and make data-driven decisions that optimize profitability and growth. Our industry-leading solutions are transforming energy companies across the entire value chain, helping visionary leaders evolve their organizations into modern energy companies.
+
+Responsibilities
+
+Responsible for the triage of customer reported issues, identifying, documenting and configuration recommendations for a SCADA platform
+Work closely with our product and engineering teams to provide detailed problem descriptions of customer incidents and requested improvements
+Participate in the configuration, enhancement, and testing phases associated with software changes
+Ensure our customers have a positive experience by driving timely first response, customer updates and support resolutions
+Ensure proper documentation of assigned incidents, including internal and external communications
+Responsible for taking resolved customer issues and curating them into a knowledge base system to allow customers to self-serve
+Respond to and resolve customer SCADA requests via Salesforce Service Cloud, email, telephone, Microsoft Teams, with end-to-end responsibility
+Ability to work effectively with global cross-functional teams
+Responsible for periodic after-hours on call support
+Ensure successful completion of personal and team deliverables
+Other duties as assigned
+Requirements
+
+3 to 5 year(s) of working experience in delivering solution support or solution implementation is required for this position
+Strong  technical experience in diagnosing and troubleshooting within the software applications
+Understanding of software technologies like SQL, PowerBI or Python is a plus
+Proficient in Microsoft Office products
+Candidates with experience in the Oil and Gas industry and/or SCADA platforms are encouraged to apply
+Strong proficiency in writing and verbal communication to customers
+Strong interpersonal skills
+A sense of urgency about solving problems and attaining favorable results
+Ability to set achievable goals and deadlines and maintain commitment to achieving goals in the face of obstacles and frustrations
+A team player and enjoy working in a multi-cultural environment
+A bachelor’s degree, Post Graduate Diploma, Professional Degree in Information Technology, Computer Science, Mathematics or equivalent is a plus but not required
+Additional Details
+
+Background Check: The successful candidate will need to successfully complete the following clearances: Criminal History Check, Education Verification, Employment Verification, Driver’s License Verification and passport/ID validation.
+Visa Sponsorship: Employment eligibility to work with Quorum Software in the United States is required as the company will not pursue visa sponsorship for this position. The successful candidate will be required to ensure they maintain and renew any visas or permits that grant employment eligibility where applicable.

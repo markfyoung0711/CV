@@ -1,0 +1,48 @@
+Summary:
+• The Developer Support Engineer works within the Developer Ecosystem Success organization to help
+developers through scaled service delivery & operations.
+• We combine deep expertise in our products with operational and analytical skills to design and manage
+scalable processes that support all developers across VR, Wearables, 2D, Open-Worlds and mobile
+experiences.
+• As part of the DES organization, the Developer Support Engineers are technically savvy, creative problem
+solvers and life-long learners who strive to provide the best possible service to our developers. A live ops
+engineer is the most similar role in comparison.
+Responsibilities
+• Develop and maintain deep technical knowledge of the OS and World platforms, features, and tools.
+• Manage escalation queue of second and third level triage of inbound developer questions.
+• Prioritize, investigate, and debug technical issues efficiently, escalating to SMEs when necessary.
+• Communicate technical resolutions, workarounds, and product confusion effectively to internal SMEs and
+external developers.
+• Stay up to date on new developer-facing products as well as internal tools and systems.
+• Evangelize technical developers support efforts across the organization, promoting best practices and
+knowledge sharing.
+• Identify opportunities to optimize and automate workflows, implementing process improvements.
+• Assist with KPI implementation, tracking, and reporting, utilizing data to drive decision-making.
+• Perform retrospectives, developing training materials and runbooks to enhance the knowledge base.
+Skills
+• Experience in software development and developer operations.
+• Experience working in a fast-paced environment (live ops).
+• Experience reading, understanding, and debugging code and source control history.
+• Experience investigating and debugging complex technical issues.
+• Experience translating technical concepts and solutions to non-technical audiences.
+• Experience working with vendors, specifically outsourced customers, or developer support teams.
+• Experience leading projects and implementing technical solutions.
+• Excellent written, verbal and communication skills.
+• Experience with ticket escalation.
+• Self-starter.
+Education/Experience
+• Bachelor's degree in computer science or related field.
+• Previous work experience in tech.
+Top 3 Must-Have HARD Skills
+• Experience in software development and developer operations.
+• Experience reading, understanding, and debugging code and source control history.
+• Experience investigating and debugging complex technical issues.
+Good To Have Skills
+• Experience investigating and debugging complex technical issues.
+Job Title: Developer Support Engineer IV
+Duration: 12 Months (With Possibility of extension)
+Client: Globally Leading Social Media & Technology Company
+Location: Remote
+• Experience working with vendors, specifically outsourced customer, or developer support teams.
+• Experience working in a fast-paced environment (live ops).
+• Excellent written, verbal and communication skills.

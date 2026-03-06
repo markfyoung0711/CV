@@ -1,0 +1,46 @@
+We are on a mission to make our communities safer and more secure. Our cutting-edge public safety product aims to prevent and solve crimes through advanced analytics, visualization, and performance-driven solutions. Join us in creating a state-of-the-art platform that will revolutionize public safety. We’re seeking a Senior Full-Stack Engineer with deep expertise in NodeJS and Angular to drive the development of this cutting-edge product. You’ll play a key role in building highly performant, analytics-driven, and visualization-focused applications that empower decision-makers with actionable insights.
+
+
+
+Key Responsibilities:
+
+•	Optimize for speed, scalability, and security; ensure compliance with standards.
+
+•	Build reusable components and libraries; lead code reviews and testing.
+
+•	Design and develop scalable and high-performance applications using NodeJS for backend and Angular for front-end development.
+
+•	Architect solutions with a focus on data analytics, visualizations, and real-time performance metrics that aid in crime prevention and resolution.
+
+•	Collaborate with cross-functional teams to ensure seamless integration of frontend and backend services, ensuring a fluid user experience for public safety officials and community users.
+
+•	Optimize applications for maximum speed, scalability, and security, ensuring compliance with best practices and regulatory standards.
+
+•	Develop reusable components and libraries that can be leveraged across multiple applications.
+
+•	Lead efforts in code reviews, testing, and continuous integration to ensure robust, reliable, and maintainable codebases.
+
+Requirements
+Qualifications:
+
+•	5+ experience with NodeJS and Angular in building scalable and high-performance applications.
+
+•	Solid understanding of modern front-end and back-end frameworks (NextJS) and how they contribute to a seamless product experience.
+
+•	Experience with data analytics, visualization frameworks, and tools that can process and display large sets of data in real-time (e.g., D3.js, Chart.js).
+
+•	Strong knowledge of performance optimization techniques for both client-side and server-side applications.
+
+•	Experience building RESTful APIs and working with databases like MySQL, MongoDB, or similar.
+
+•	Experience with building Docker images and Kubernetes deployments, services, ingress, config maps and secrets.
+
+•	Proficiency in implementing secure and compliant coding practices, especially within public safety or sensitive data contexts.
+
+•	Proven ability to work with agile methodologies.
+
+•	Excellent communication and problem-solving skills, with a focus on user-centric solutions.
+
+•	Knowledge on PHP/Laravel is a plus.
+
+•	Experience with ArcGIS ESRI maps and Geospatial mapping is plus.

@@ -1,0 +1,39 @@
+Role Summary
+
+We are seeking a Platform Engineer with deep expertise in Python packaging and the Conda ecosystem to drive platform engineering excellence.The role focuses on building standardized CI/CD pipelines, automation frameworks, Infrastructure-as-Code templates, and secure developer workflows centered around Conda-based Python environments.
+
+This role also requires proven open-source contributions to the Conda ecosystem and strong experience creating reusable automation for engineering teams.
+
+ 
+
+Key Responsibilities
+
+Contribute to and maintain open-source packages and build recipes within Conda-Forge.
+Design and maintain developer workflows using Pixi package manager for reproducible Python environments.
+Build and maintain reusable CI/CD workflows and custom automation using GitHub Actions.
+Establish platform-wide CI/CD patterns, templates, and reusable “golden-path” repositories.
+Design and maintain Infrastructure-as-Code templates and modules for standardized platform provisioning.
+Drive DevSecOps practices across build and delivery pipelines, including dependency scanning, artifact validation, and policy enforcement.
+Promote GitOps operating models for application and platform configuration management.
+Implement and evangelize DORA metrics to improve engineering delivery performance.
+Partner with application and data teams to onboard them onto standardized Conda-based Python platforms.
+ 
+
+Required Qualifications
+
+Demonstrable, public open-source contributions to Conda-Forge.
+Hands-on experience using Pixi package manager for Python environments.
+Strong experience building and maintaining GitHub Actions workflows and CI/CD automation.
+Proven experience designing reusable pipeline templates and platform automation.
+Solid experience with Infrastructure-as-Code and reusable IaC modules.
+Strong knowledge of Python packaging, dependency management, and Conda tooling.
+Practical experience implementing DevSecOps controls inside CI/CD pipelines.
+Experience working in GitOps-driven delivery models.
+Understanding and practical use of DORA metrics.
+ 
+
+Nice to Have
+
+Experience building internal developer platforms.
+Experience supporting scientific, data, or ML workloads using Conda environments.
+Prior experience acting as a platform or developer-enablement lead.

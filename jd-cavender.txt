@@ -1,0 +1,36 @@
+OVERVIEW
+Cavender’s is seeking an Application & Systems Analyst to support our merchandising and finance application landscape. This role serves as a technical and functional resource, partnering with business leaders and IT to optimize system performance, improve workflows, and ensure data accuracy across key retail functions.
+The ideal candidate has strong analytical skills, a customer-service mindset, and an interest in retail systems. You will help troubleshoot system issues, support new feature rollouts, and assist with enhancement requests that support Cavender’s continued growth.
+
+DUTIES AND RESPONSIBILITIES
+Support the “Cavender’s Culture” and drive the Mission, Vision and Values
+Serve as the functional and technical liaison for merchandising and finance applications.
+Support and enhance key merchandising functions such as inventory management, purchase orders, and transfer operations.
+Support finance functions including vendor invoice matching, payment reconciliation, and EDI transaction management.
+Collaborate with D365, ERP, and integration teams to ensure accurate data flow and operational efficiency across systems.
+Analyze business requirements and translate them into system configurations, workflow enhancements, and technical improvement requests.
+Troubleshoot and resolve application and data issues, leveraging SQL queries and reporting tools as needed.
+Coordinate system upgrades, regression testing, and documentation for new releases or configurations.
+Provide training, process guidance, and end-user support to merchandising and finance partners.
+Identify and implement automation and process improvement opportunities across application and database workflows.
+Contribute to roadmap planning, application architecture design, and technology initiatives that support long-term scalability and retail growth.
+Ensure compliance with security standards, audit controls, and system integrity through proactive patching and vulnerability management.
+Perform other duties as assigned.
+QUALIFICATIONS AND REQUIREMENTS
+Bachelor’s degree in Business, Information Systems, Computer Science, or related field OR equivalent professional experience
+3–5 years of experience supporting retail merchandising and finance applications
+Strong understanding of purchasing, inventory, transfer, invoicing, and vendor management workflows
+Familiarity with ERP systems (D365 or similar)
+Working knowledge of SQL for data validation and issue analysis
+Understanding of integration concepts (APIs, EDI, ETL, middleware)
+Excellent analytical, communication, documentation, and problem-solving skills, with proven ability to partner across business and technical teams
+Ability to manage multiple priorities in a fast-paced retail environment
+Must be located in East Texas or DFW area
+PREFERRED SKILLS
+Knowledge of merchandising and financial applications; D365 strongly preferred
+Experience with integration platforms (e.g., Logic Apps, Boomi, Azure Service Bus)
+Experience working in cloud environments (Azure, AWS) and virtualized infrastructure
+Familiarity with Snowflake, Power BI, or SSRS for reporting and analytics
+Experience supporting store operations and retail ERP environments
+Understanding of reconciliation workflows across merchandising, finance, store operations, and external systems
+Knowledge of ITIL or structured change-management frameworks

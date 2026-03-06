@@ -1,0 +1,42 @@
+The QA Automation Engineer serves as a Subject Matter Expert (SME) with deep expertise in test automation within the Pharmacy and Healthcare domain. This role requires proven experience designing and building scalable automation frameworks from the ground up, as well as the ability to define and lead automation strategies, including tool selection, framework architecture, and best practices. This role will collaborate closely with QA, development, DevOps, and business teams to ensure automation initiatives align with organizational objectives. This role will have hands-on experience developing intelligent, resilient, and scalable automation solutions, including the use of AI/ML technologies for test generation, self-healing capabilities, ongoing maintenance, and analytics, while also serving as a technical advisor and mentor across teams.
+
+Full time remote opportunity; with the need to travel as needed based on client or business needs
+Sponsorship not offered for this role
+Responsibilities:
+Design and architect and implement a robust, reusable, AI-enabled enterprise level automation framework from the ground up for highly scalable systems.
+Define automation architecture, coding standards, and best practices.
+Select appropriate tools (e.g., Playwright/Selenium, RestAssured, Cucumber, NUnit/TestNG, CI/CD integration).
+Implement automation for web applications, APIs, databases, and batch jobs.
+Integrate automation with CI/CD pipelines (Azure DevOps).
+Lead POC and framework validation.
+Ensure compliance with Healthcare and Pharmacy regulations (HIPAA, EDI, 21 CFR Part 11 etc).
+Create reporting, logging, and test data management strategy.
+Collaborate with Dev, DevOps, Business, and Compliance teams.
+Commercial & Client Support: Support Commercial Development and Sales teams during client meetings, RFP responses, and solution design activities. Participate in client-facing discussions to explain product capabilities, workflows, and value propositions.
+Launch & Enablement: Support product and feature launches by assisting with internal enablement, training materials, release documentation, and client communications.
+Continuous Improvement: Analyze product performance, client feedback, and operational metrics to identify enhancement opportunities. Recommend product, process, or workflow improvements to optimize value delivery.
+Documentation & Knowledge Management: Create and maintain product documentation including workflows, process maps, requirements artifacts, and reference materials for internal and client-facing use.
+May require occasional travel
+
+The above duties are meant to be representative of the position and not all-inclusive.
+Qualifications:
+
+Education/Training: Bachelor’s degree in computer science, Information Technology, Software Engineering, or a related technical field
+Related Experience: Minimum of 3–5 years of experience in candidates with extensive hands-on experience in test automation, healthcare systems, and framework architecture.
+Knowledge, Skills & Abilities:
+Strong hands-on experience in C#/Java/Python / JavaScript automation.
+Hands-on with AI-powered test tools
+Proven experience building automation frameworks from scratch.
+Expertise in UI, API, and DB automation.
+Experience with BDD frameworks (SpecFlow/Cucumber).
+CI/CD integration and cloud-based test execution.
+Strong knowledge of Pharmacy/ Healthcare systems.
+Experience working in HIPAA-compliant environments.
+PHYSICAL DEMANDS:
+
+Location of job activities 100% inside
+Extensive manual dexterity (keyboarding, mouse, phone)
+Regular use of phone for communication
+Noise and/or vibrations exposure
+Frequently reach (overhead), handle, and feel with hands and arms
+Sit for prolonged periods of time
